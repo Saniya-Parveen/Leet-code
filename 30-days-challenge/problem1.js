@@ -1,7 +1,9 @@
 //Create Hello World Function
 
-function message(argg){
-    return argg;
+var createHelloWorld = function() {
     
-}
-console.log(message("Hello World"))
+    return function(...args) {
+
+        return("Hello World");
+    }
+};
